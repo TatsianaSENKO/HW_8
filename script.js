@@ -72,6 +72,10 @@ btn2.style.color = 'white';
 let style = document.createElement('style');
 style.innerHTML = `
 @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Montserrat:wght@700&family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
 ul {
     list-style: none;
 }
@@ -82,6 +86,7 @@ h1 {
     font-weight: 400;
     color: #212121;
     text-align: center;
+    margin-top: 70px;
     margin-bottom: 10px;
 }
 
@@ -137,7 +142,7 @@ p {
     font-size: 12px;
     line-height: 22px; /* 183.333% */
     max-width: 210px;
-    margin-bottom: 55px;
+    margin-bottom: 70px;
 }
 
 .btn {
